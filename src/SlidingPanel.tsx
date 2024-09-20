@@ -9,7 +9,7 @@ const container: React.CSSProperties = {
 	display: 'flex',
 };
 
-const PANELS_SHOWN = 4;
+const PANELS_SHOWN = 1;
 
 export const SlidingPanel: React.FC<{
 	shots: Scene[];

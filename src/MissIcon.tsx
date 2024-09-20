@@ -2,18 +2,30 @@ import React from 'react';
 
 export const MissIcon: React.FC = () => {
 	return (
-		<svg
-			style={{
-				height: 36,
-				width: 36,
-			}}
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 320 512"
-		>
-			<path
-				fill="rgba(255, 255, 255, 0.2)"
-				d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
-			/>
-		</svg>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="1235" height="650" viewBox="0 0 7410 3900">
+ <path d="M0,0h7410v3900H0" fill="#b31942"/>
+ <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" strokeWidth="300"/>
+ <path d="M0,0h2964v2100H0" fill="#0a3161"/>
+ <g fill="#FFF">
+  <g id="s18">
+   <g id="s9">
+    <g id="s5">
+     <g id="s4">
+      <path id="s" d="M247,90 317.534230,307.082039 132.873218,172.917961H361.126782L176.465770,307.082039z"/>
+      <use xlinkHref="#s" y="420"/>
+      <use xlinkHref="#s" y="840"/>
+      <use xlinkHref="#s" y="1260"/>
+     </g>
+     <use xlinkHref="#s" y="1680"/>
+    </g>
+    <use xlinkHref="#s4" x="247" y="210"/>
+   </g>
+   <use xlinkHref="#s9" x="494"/>
+  </g>
+  <use xlinkHref="#s18" x="988"/>
+  <use xlinkHref="#s9" x="1976"/>
+  <use xlinkHref="#s5" x="2470"/>
+ </g>
+</svg>
 	);
 };
