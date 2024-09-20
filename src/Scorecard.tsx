@@ -98,18 +98,18 @@ export const ScoreCard: React.FC<{
 	return (
 		<div style={outer}>
 			<div style={bottom}>
-				<Img style={profile} src={staticFile('jonny.png')} />
+				<Img style={profile} src={staticFile('Screenshot 2024-07-23 092934.png')} />
 				<Img
-					src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1024px-Flag_of_Switzerland.svg.png?20191016012602"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/512px-Flag_of_the_United_States.svg.png?20240524035322"
 					style={flag}
 				/>
 				<div style={name}>
-					<div style={surname}>Jonny</div>
-					<div style={lastname}>BURGER</div>
+					<div style={surname}>wow</div>
+					<div style={lastname}>BURGEZZ</div>
 				</div>
 				<SlidingPanel shots={shots} numberOfOffset={scoreCardOffset} />
 			</div>
-			<div style={eventName}>2022 REMOTION FREE THROW INVITATIONAL</div>
+			<div style={eventName}>2024 Remotionv</div>
 			{shots.map((s) => {
 				if (!s.doesHit) {
 					return null;
