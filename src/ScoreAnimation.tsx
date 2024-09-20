@@ -46,7 +46,7 @@ export const ScoreAnimation: React.FC = () => {
 			<TriangleEntrace type="in" progress={progress}>
 				<AbsoluteFill>
 					<AbsoluteFill>
-						<Video src={staticFile('fire.mp4')} />
+						<Video src={staticFile('HarveyPicture.mp4')} />
 					</AbsoluteFill>
 					<AbsoluteFill style={{backgroundColor: 'orange', opacity: 0.95}} />
 					<AbsoluteFill
@@ -62,7 +62,7 @@ export const ScoreAnimation: React.FC = () => {
 							flexDirection: 'row',
 						}}
 					>
-						{'SCORE'.split('').map((l, i) => {
+						{'XXOI'.split('').map((l, i) => {
 							return (
 								<span
 									style={{
