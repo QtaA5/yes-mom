@@ -9,7 +9,7 @@ import {ScoreCard} from './Scorecard';
 import {ScoreCardShowoff} from './ScoreCardShowoff';
 import {Scene} from './types';
 
-const src = staticFile('basketball.mp4');
+const src = staticFile('Such-bapcai.mp4');
 
 const fps = 30;
 
